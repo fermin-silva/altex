@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+#header-menu, #quienes, #historia, #articulos, #galeria, #como-llegar, #contacto #afip{
+	width:100%;
+	margin:auto;
+	}
+
+#header-menu{
+	background-color:#aba7a2; 
+	height:200px;
+	margin:auto
+	}
+#container{
+	width:960px;
+	height:200px;
+	margin:auto;
+	}
+#quienes{
+	height:550px;
+}
+#historia{
+	background-color:#e6e7e8;
+	height:400px;
+}
+#articulos{
+	height:820px;
+}
+#galeria{
+	background-color:#e6e7e8; 
+	padding-top:45px;
+	height:780px;
+}
+#como-llegar{
+	background-color:#fff; 
+	height:555px;
+	text-align:center;
+	padding-top:45px;
+}
+#contacto{
+	background-color:#fff; 
+	height:205px;
+	padding-top:45px;
+	text-align:center;
+}
+#logo{
+	background-color:#aa7059;
+	width:171px; 
+	height:200px;
+	float:left;
+}
+#botonera{
+	width:729px; 
+	margin:auto;
+	float:left;
+	padding-top:100px;
+	padding-left:60px;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;
+}
+#botonera li{
+	width:140px;
+	height:100px;
+	list-style-type:none;
+	float:left;
+	text-align:center;
+	}
+#botonera a{
+	text-decoration:none;
+	color:#000;
+	width:140px;
+	height:30px;
+	display:block;
+	padding-top:70px;
+	}
+#botonera a:hover{
+	color:#666;
+}
+#contenedor-quienes{
+	width:700px;
+	margin:auto;
+	padding-top:30px;
+	}
+hr {
+  height: 2px;
+  width: 70px;
+  border:0px;
+  background-color:#FF2502;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:30px;
+  
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+	color:#FF2502;
+	text-align:center;
+	}
+p{
+	font-family: 'Roboto Slab', serif;
+	font-size:14px;
+	color:#58595b;
+	}
+table{
+	margin-top:40px;
+	}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	color:#58595b;
+	 text-align:center;
+	}
+.arriba{
+	padding-top:20px;
+	padding-left:10px;
+	padding-right:10px;
+	}
+td{
+	width:213px;
+	}
+#contenedor-historia{
+	width:700px;
+	margin:auto;
+	padding-top:45px;
+	}
+#contenedor-articulos{
+	width:700px;
+	margin:auto;
+	padding-top:45px;
+	}
+#carta{
+	background-color:#FF2502;
+	width:700px;
+	height:23px;
+	margin:auto;
+	margin-top:30px;
+	text-align:center;
+	padding-top:7px;
+	}
+#carta a{
+	width:700px;
+	height:23px;
+	text-decoration:none;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	color:#fff;
+	}
+#carta a:hover{
+	color:#FFDDE5
+	}
+#afip{
+	height:100px;
+	margin:auto;
+	}
